@@ -32,7 +32,7 @@ const countryAndCapitalsList = [
 
 // Write your code here
 class Capitals extends Component {
-  state = {selectedCountryId: countryAndCapitalsList[0].country}
+  state = {selectedCountryId: countryAndCapitalsList[0].id}
 
   onChangeButton = event => {
     this.setState({selectedCountryId: event.target.value})
